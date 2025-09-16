@@ -1,40 +1,91 @@
-# boudicca.events
+boudicca.events
 
-Welcome to the boudicca.events git repo!
+Welcome to the boudicca.events GitHub repository! 🎉
 
-boudicca.events collects and shows events from as many sources as possible and displays them on one site, enriched with
-Accessibility Information.
-To do this we automatically collect the data from different sites with so-called `EventCollectors`.
+boudicca.events collects and aggregates events from multiple sources and presents them on one unified platform, enriched with Accessibility Information.
+We use modular components called EventCollectors to automatically gather and process data from different sources.
 
-You can access boudicca.events at https://boudicca.events/ and you can learn more about us
-here: https://boudicca.events/about
+👉 Live site: https://boudicca.events
 
-## Data Model
+👉 About us: https://boudicca.events/about
 
-boudicca.events is only concerned about Events, 
-but some of the underlying services are more generic and could be used for other information as well, those would be called "Entry".  
-boudicca.events is a database of Events, which are simple Key->Value pairs, but in order to support some use-cases it also
-supports format and language Variants of properties, please see [Data Model](docs/DATA_MODEL.md) for more information.
-In theory, you can put whatever you want into an Event, but to have some consistency and interoperability it is encouraged
-to comply to the keys and formats defined in the [Semantic Conventions](docs/SEMANTIC_CONVENTIONS.md) as well as you can.
+🚀 Features
 
-## Using Boudiccas REST Apis
+Collects events from multiple platforms automatically
 
-When you want to use our data via our REST Apis or want to create our own publisher or service with Boudicca
-see [REST](docs/REST.md)
+Stores events in a flexible key-value data model
 
-## Architecture
+Supports language variants and format variants of properties
 
-see our [Architecure](docs/architecture/ARCH.md) overview
+Encourages consistency via Semantic Conventions
 
-## Deploying Boudicca
+Provides easy-to-use REST APIs for developers
 
-TODO
+📦 Data Model
 
-## Local development setup with IntelliJ
+boudicca.events is mainly concerned with Events, but some underlying services are more generic and can handle "Entries" (arbitrary data).
 
-If you want to help us with developing Boudicca or fix a bug, see our [Developing](docs/DEV.md) guide
+Events are stored as Key → Value pairs
 
-## Technical descriptions of our Services
+Supports:
 
-If you need more in-depth understanding of our services and their code please see: [Tech](docs/tech/TECH.md)   
+Format Variants (e.g., text, markdown, HTML)
+
+Language Variants (e.g., English, German)
+
+For best practices, follow:
+
+Data Model
+
+Semantic Conventions
+
+🌐 Using Boudicca’s REST APIs
+
+If you want to:
+
+Access event data programmatically
+
+Build your own publisher or service with Boudicca
+
+👉 See the REST API Guide
+
+🏗️ Architecture
+
+The project consists of multiple services working together to collect, enrich, and serve events.
+
+👉 High-level overview: Architecture
+
+🛠️ Development & Contribution
+
+We 💜 contributions! If you’d like to help with bug fixes, new collectors, or new features:
+
+Fork & clone this repository
+
+Follow our Development Guide
+
+Open a Pull Request
+
+We use IntelliJ IDEA for local development, but you can use any IDE of your choice.
+
+📚 Technical Details
+
+For deeper insights into how individual services work and their implementations:
+👉 Technical Documentation
+
+🚀 Deployment
+
+Deployment instructions are coming soon. Stay tuned!
+(PRs to improve this section are welcome ✨)
+
+📄 License
+
+This project is open source. See the LICENSE
+ file for details.
+
+🤝 Community
+
+Website: boudicca.events
+
+Issues & feature requests: GitHub Issues
+
+Discussions: GitHub Discussions
